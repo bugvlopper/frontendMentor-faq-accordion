@@ -33,11 +33,11 @@ class Accordion extends Component {
     }
 
     _hoverBoxMove(){
-        document.getElementsByClassName('box')[0].style.left = 19.5+"%";
+        document.getElementsByClassName('box')[0].style.left = "-14%";
     }
     
     _hoverReplace(){
-         document.getElementsByClassName('box')[0].style.left = 21.2+"%";
+         document.getElementsByClassName('box')[0].style.left = "-10%";
     }
 
     render() { 

@@ -9,11 +9,12 @@ class App extends Component {
   render() { 
     return (
       <React.Fragment>
-        <img className='box' src={box} alt="box" />
+        
       <div className='card'>
         <div className='images-container'>
-          <img className='mainImage' src={mainImage} alt="woman working" />
           
+          <img className='mainImage' src={mainImage} alt="woman working" />
+          <img className='box' src={box} alt="box" />
         </div>
         <div className='content'>
           <h1>FAQ</h1>

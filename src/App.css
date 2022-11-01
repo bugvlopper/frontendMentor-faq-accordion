@@ -1,17 +1,19 @@
 .card{
+  position: relative;
   width: 920px;
   height: 510px;
   background-color: white;
   border-radius: 15px;
   display: flex;
   justify-content: center;
-  overflow: hidden;
+  
 }
 h1{
   margin-bottom: 40px;
   font-size: 2rem;
 }
 .images-container{
+  overflow: hidden;
   width: 50%;
   background-image: url(./images//bg-pattern-desktop.svg);
   background-repeat: no-repeat;
@@ -19,9 +21,8 @@ h1{
 }
 .box{
   position: absolute;
-  z-index: 1;
-  left: 21.2%;
-  top: 44%;
+  left: -10%;
+  top: 40%;
 }
 .mainImage{
   position: relative;
@@ -42,10 +43,10 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: visible;
     height: 535px;
   }
   .images-container{
+    overflow: visible;
     position: relative;
     bottom: 15px;
     width: 100%;
